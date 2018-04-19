@@ -1,4 +1,5 @@
 console.log('connected');
+// change to test github deployment
 
 var colors = ['rgb(255, 0, 0)',
 				'rgb(255, 255, 0)',
