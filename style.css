@@ -15,7 +15,20 @@ h1 {text-align: center;}
 			padding-bottom: 30%;
 			background-color: purple;
 			margin: 1.66%;
-			float:left;
-			
-			
+			float:left;	
 		}
+
+#topBar {
+			background-color: white;
+			display: block;
+			color: blue;
+}
+
+#colorMessage {
+			margin: auto;
+}
+
+.selected {
+			background-color: blue;
+			color: white;
+}
