@@ -33,6 +33,7 @@ function setColors() {
 function configureMasthead() {
 	document.getElementById('masthead').style.backgroundColor='black';
 	document.getElementById('displayColor').innerHTML=targetColor;
+	document.querySelector('#newColor').innerHTML='New colors ';
 	document.getElementById('newColor').addEventListener('click',setUp);
 	document.getElementById('newColor').addEventListener('mouseover',function() {
 		document.getElementById('newColor').style.color='purple'
@@ -81,7 +82,8 @@ function incorrect(square) {
 
 function correct() {
 	squares.forEach(function(element) {
-element.style.backgroundColor=targetColor; 
+element.style.backgroundColor=targetColor;
+document.querySelector('#newColor').innerHTML='New Game';
 });
 	document.getElementById('masthead').style.backgroundColor=targetColor;
 }
