@@ -15,7 +15,8 @@ h1 {text-align: center;}
 			padding-bottom: 30%;
 			background-color: purple;
 			margin: 1.66%;
-			float:left;	
+			float:left;
+			transition: 1s;	
 		}
 
 #topBar {
@@ -32,3 +33,7 @@ h1 {text-align: center;}
 			background-color: blue;
 			color: white;
 }
+
+button {	
+			transition: 1s;
+		}
