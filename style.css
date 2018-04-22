@@ -20,12 +20,12 @@ h1 {text-align: center;}
 
 #topBar {
 			background-color: white;
-			display: block;
+			text-align: center;
 			color: blue;
 }
 
 #colorMessage {
-			margin: auto;
+			
 }
 
 .selected {
